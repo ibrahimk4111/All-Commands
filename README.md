@@ -10,13 +10,13 @@
 
 `git branch -M main`
 
-`git remote add origin https://github.com/ibrahimk4111/.afsdf.git`
+`git remote add origin https://github.com/ibrahimk4111/<your repo name>.git`
 
 `git push -u origin main`
 
 ## push to created repository command
 
-`git remote add origin https://github.com/ibrahimk4111/.afsdf.git`
+`git remote add origin https://github.com/ibrahimk4111/<your repo name>.git`
 
 `git branch -M main`
 
