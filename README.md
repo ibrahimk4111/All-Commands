@@ -1,4 +1,4 @@
-# All_commands and Projects_demo
+# All commands and Projects demo
 
 | All_Commands | Project_Demo |
 |-------|----------|
@@ -18,7 +18,7 @@ git branch -M main
 git remote add origin https://github.com/ibrahimk4111/<your repo name>.git
 git push -u origin main
 ```
-[back to top](#All_commands-and-Projects_demo)
+[back to top](#All-commands-and-Projects-demo)
 
 ## 02_Push_To_Repo
 ```
