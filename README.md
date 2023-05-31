@@ -1,8 +1,7 @@
 # All-Commands
-[04](#hello)
+[04](#01.New_Repository_command)
 
-## hello
-01.New Repository command
+## 01.New_Repository_command
 ```
 git init
 git add README.md
