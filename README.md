@@ -1,7 +1,15 @@
 # All-Commands
-[04](#New_Repository_command)
+[01.New Repository command](#01_New_Repository_command)
 
-## New_Repository_command
+[02.Push_To_Repo](#02_Push_To_Repo)
+
+[03.React_App_Deployment_on_Github](#03_React_App_Deployment_on_Github)
+
+[04.React_Vite_App_Deployment_on_Github](#04_React_Vite_App_Deployment_on_Github)
+
+[05_TailwindCSS_Installation_in_Vite_Project](#05_TailwindCSS_Installation_in_Vite_Project)
+
+## 01_New_Repository_Command
 ```
 git init
 git add README.md
@@ -11,14 +19,14 @@ git remote add origin https://github.com/ibrahimk4111/<your repo name>.git
 git push -u origin main
 ```
 
-## 02.Push to repo
+## 02_Push_To_Repo
 ```
 git remote add origin https://github.com/ibrahimk4111/<your repo name>.git
 git branch -M main
 git push -u origin main
 ```
 
-## 03.React App deployment on github
+## 03_React_App_Deployment_on_Github
 #### step-1 : 
 `First of all push your code on github successfully.`
 
@@ -48,7 +56,7 @@ Then go to your github Repository :
 
 
 
-## 04.React + vite App deployment on github
+## 04_React_Vite_App_Deployment_on_Github
 
 #### step-1: Setup base on vite.config :
 `base: "/[REPO_NAME]/"`
@@ -122,7 +130,7 @@ git push
 -> Pages -> gh-pages -> save
 ```
 
-## 05.TailwindCSS installation in vite Project
+## 05_TailwindCSS_Installation_in_Vite_Project
 #### Step 1: open terminal to install
 `npm install -D tailwindcss postcss autoprefixer`
 
