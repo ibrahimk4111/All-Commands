@@ -1,4 +1,4 @@
-| # All-Commands | # Project_Demo |
+| # All_Commands | # Project_Demo |
 |-------|----------|
 |01. [New Repository command](#01_New_Repository_command)|-|
 |02. [Push To Repo](#02_Push_To_Repo)|-|
@@ -128,7 +128,7 @@ git push
 -> Actions -> failed deploy -> re-run-job failed jobs 
 -> Pages -> gh-pages -> save
 ```
-
+[back to top](#All_Commands)
 
 ## 05_TailwindCSS_Installation_on_React_Vite_App
 #### Step 1: open terminal to install
