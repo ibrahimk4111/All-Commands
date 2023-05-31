@@ -1,4 +1,4 @@
-# All_Commands_and_Project_Demo
+# All_Commands_and_Projects_Demo
 
 | All_Commands | Project_Demo |
 |-------|----------|
