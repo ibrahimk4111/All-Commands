@@ -1,5 +1,5 @@
 # All-Commands
-[a link](/All-Commands/blob/main/README.md#01new-repository-command)
+[04](#tailwindcss)
 
 ## 01.New Repository command
 ```
@@ -122,7 +122,7 @@ git push
 -> Pages -> gh-pages -> save
 ```
 
-## 05.TailwindCSS installation in vite Project
+## TailwindCSS
 #### Step 1: open terminal to install
 `npm install -D tailwindcss postcss autoprefixer`
 
