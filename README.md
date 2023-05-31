@@ -1,5 +1,5 @@
 # All-Commands
-[04](#05.TailwindCSS installation in vite Project)
+[04](#tailwindcss-installation-in-vite-project)
 
 ## 01.New Repository command
 ```
