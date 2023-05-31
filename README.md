@@ -1,7 +1,8 @@
 # All-Commands
-[04](#/05.tailwindcss-installation-in-vite-project)
+[04](#hello)
 
-## 01.New Repository command
+## hello
+01.New Repository command
 ```
 git init
 git add README.md
