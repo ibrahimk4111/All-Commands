@@ -1,13 +1,10 @@
-# All-Commands
-01. [New Repository command](#01_New_Repository_command)
-
-02. [Push To Repo](#02_Push_To_Repo)
-
-03. [React App Deployment on Github](#03_React_App_Deployment_on_Github)
-
-04. [React Vite App Deployment on Github](#04_React_Vite_App_Deployment_on_Github)
-
-05. [TailwindCSS Installation in Vite Project](#05_TailwindCSS_Installation_on_React_Vite_App)
+| # All-Commands | # Project_Demo |
+|-------|----------|
+|01. [New Repository command](#01_New_Repository_command)|-|
+|02. [Push To Repo](#02_Push_To_Repo)|-|
+|03. [React App Deployment on Github](#03_React_App_Deployment_on_Github)|-|
+|04. [React Vite App Deployment on Github](#04_React_Vite_App_Deployment_on_Github)|-|
+|05. [TailwindCSS Installation in Vite Project](#05_TailwindCSS_Installation_on_React_Vite_App)|-|
 
 ## 01_New_Repository_Command
 ```
