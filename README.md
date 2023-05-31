@@ -128,7 +128,7 @@ git push
 -> Actions -> failed deploy -> re-run-job failed jobs 
 -> Pages -> gh-pages -> save
 ```
-[back to top](#All_Commands)
+[New Repository command](#01_New_Repository_command)
 
 ## 05_TailwindCSS_Installation_on_React_Vite_App
 #### Step 1: open terminal to install
