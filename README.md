@@ -2,6 +2,7 @@
 
 |Commands|Repositories|Live Demos|
 |------|------|------|
+|* [My VsCode Setting](#My_VSCode_Setting)|
 |01. [New Repository command](#01_New_Repository_command)|[Responsive Navbar](https://github.com/ibrahimk4111/Responsive_nav_bar)|
 |02. [React App Deployment on Github](#02_React_App_Deployment_on_Github)|[Arifs BD Ltd](https://github.com/ibrahimk4111/arifsbd)|
 |03. [React Vite App Deployment on Github](#03_React_Vite_App_Deployment_on_Github)|[Currency Converter](https://github.com/ibrahimk4111/currency_converter)
@@ -148,5 +149,61 @@
            
    #### step 2: 
            set Environment key and value same as your .env file contains
+
+[back to top](#All_commands)
+
+## My_VSCode_Setting
+
+```
+{
+  "files.autoSave": "onWindowChange",
+  "editor.linkedEditing": true,
+  "css.lint.unknownAtRules": "ignore",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.showUnused": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.sqlite3": "default"
+  },
+  "editor.mouseWheelZoom": true,
+  "workbench.list.mouseWheelScrollSensitivity": 0.5,
+  "screencastMode.mouseIndicatorSize": 100,
+  "html.format.templating": true,
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "*.html": "html"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "django-css": "css"
+  },
+  "[django-html]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "SynthWave '84",
+}
+
+```
 
 [back to top](#All_commands)
