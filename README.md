@@ -8,6 +8,7 @@
 |03. [React Vite App Deployment on Github](#03_React_Vite_App_Deployment_on_Github)|[Currency Converter](https://github.com/ibrahimk4111/currency_converter)
 |04. [TailwindCSS Installation in Vite Project](#04_TailwindCSS_Installation_on_React_Vite_App)|
 |05. [Mongoose + NodeJs + Express app Deploy on render](#05_Mongoose_NodeJs_Express_app_Deploy_on_render)|[Mongoose + Express](https://github.com/ibrahimk4111/mongo_express)
+|06. [tailwind css container customise](#06_tailwind_css_container_customise)|
 
 ## 01_New_Repository_Command
 
@@ -150,6 +151,26 @@
    #### step 2: 
            set Environment key and value same as your .env file contains
 
+[back to top](#All_commands)
+
+## 06_tailwind_css_container_customise
+           
+   ```
+           theme: {
+               container: {
+                 center: true,
+                 padding: "1rem",
+                 screens: {
+                   sm: "100%",
+                   md: "80%",
+                   lg: "900px",
+                   xl: "1050px",
+                   xxl: "1150px",
+                 },
+               },
+           }
+
+```
 [back to top](#All_commands)
 
 ## My_VSCode_Setting
