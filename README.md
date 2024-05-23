@@ -248,7 +248,7 @@ into `package.json` add this two line:
 "lint:fix": "eslint src --ignore-path .eslintignore --ext .ts --fix",
 
 ```
-
+[back to top](#All_commands)
 
 ## My_VSCode_Setting
 
