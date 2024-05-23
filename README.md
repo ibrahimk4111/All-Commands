@@ -9,6 +9,7 @@
 |04. [TailwindCSS Installation in Vite Project](#04_TailwindCSS_Installation_on_React_Vite_App)|
 |05. [Mongoose + NodeJs + Express app Deploy on render](#05_Mongoose_NodeJs_Express_app_Deploy_on_render)|[Mongoose + Express](https://github.com/ibrahimk4111/mongo_express)
 |06. [tailwind css container customise](#06_tailwind_css_container_customise)|
+|07. [Eslint configuration](#07_Eslint_configuration)|
 
 ## 01_New_Repository_Command
 
@@ -172,6 +173,82 @@
 
 ```
 [back to top](#All_commands)
+
+
+## 07_Eslint_configuration
+
+#### step - 1.
+```
+npm i eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier prettier --save-dev
+```
+
+
+#### step - 2.
+create `.eslintrc.json` and add these settings:
+
+```
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+    // "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "no-console": "warn",
+    "prefer-const": "error",
+    "no-var": "error"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
+
+```
+
+also add `.eslintignore` and add these settings:
+
+```
+# Ignore node_modules
+node_modules/
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore minified JavaScript files
+*.min.js
+
+# Ignore specific configuration files
+# .eslintrc.js
+
+```
+
+#### step - 3. 
+into `package.json` add this two line:
+
+```
+"lint": "eslint src --ignore-path .eslintignore --ext .ts",
+"lint:fix": "eslint src --ignore-path .eslintignore --ext .ts --fix",
+
+```
+
 
 ## My_VSCode_Setting
 
